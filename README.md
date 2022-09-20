@@ -16,7 +16,7 @@
 
 <br>
 
-<p> - Project made with React and Node.JS</p>
+<p> - Project made with React.</p>
 <p> - In it you can register and delete one or more users.</p>
  
  <br><br>
