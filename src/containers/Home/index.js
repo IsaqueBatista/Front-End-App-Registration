@@ -9,7 +9,16 @@ import axios from 'axios';
 import People from '../../assets/people.svg';
 import Arrow from '../../assets/arrow.svg';
 
-import { Container, Image, ContainerItens, H1, InputLabel, Input, Button } from './styles';
+import H1 from '../../components/Title'
+
+import {
+  Container,
+  Image,
+  ContainerItens,
+  InputLabel,
+  Input,
+  Button
+} from './styles';
 
 const App = () => {
   // REACT HOOK => FERRAMENTAS AUXILIARES  ======>     const [users, setUsers] = useState()    <======= ESSE FOI O PRIMEIRO REACT HOOK.
