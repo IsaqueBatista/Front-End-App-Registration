@@ -10,8 +10,9 @@ import Avatar from '../../assets/avatar.svg';
 import Arrow from '../../assets/arrow.svg';
 import Trash from '../../assets/trash.svg';
 
+import H1 from '../../components/Title'
 
-import { Container, Image, ContainerItens, H1, Button, User } from './styles';
+import { Container, Image, ContainerItens, Button, User } from './styles';
 
 const Users = () => {
   // REACT HOOK => FERRAMENTAS AUXILIARES  ======>     const [users, setUsers] = useState()    <======= ESSE FOI O PRIMEIRO REACT HOOK.
@@ -41,7 +42,7 @@ const Users = () => {
     setUsers(newUsers);
   }
 
-  function goBackPage(){
+  function goBackPage() {
     history.push('/')
   }
 
@@ -74,7 +75,7 @@ const Users = () => {
         </ul>
 
         <Button onClick={goBackPage}>
-        <img alt='seta' src={Arrow}/> Voltar 
+          <img alt='seta' src={Arrow} /> Voltar
         </Button>
 
       </ContainerItens>
